@@ -1,0 +1,580 @@
+@media screen and (min-width: 1000px) {
+
+    *{
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-family: system-ui;
+    }
+
+    body {
+
+        width: 100%;
+        min-height: 100vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(35, 206, 35);
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    h1 {
+
+        width: max-content;
+        height: max-content;
+        font-size: 2vw;
+    }
+
+    main {
+
+        margin-top: 10vh;
+        width: 100%;
+        min-height: 60vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: row;
+    }
+
+    #user {
+
+        margin-left: 5%;
+        height: 20vh;
+        width: 35%;
+        border: 3px solid #000;
+        border-radius: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title-cad {
+
+        width: max-content;
+        height: max-content;
+        font-size: 1.5vw;
+        margin-left: 3%;
+    }
+
+    #line-user {
+
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .atribute {
+
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+
+        width: max-content;
+        height: max-content;
+        margin-left: 3%;
+        font-size: 1vw;
+    }
+
+    input {
+
+        margin-left: 3%;
+        width: 90%;
+        height: 4vh;
+        border: 1px solid #000;
+        font-size: 1vw;
+        padding-left: 2%;
+    }
+
+    button {
+
+        width: 30%;
+        height: 5vh;
+        margin-top: 2vh; 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(35, 206, 35);
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 1.2vw;
+    }
+
+    button:hover {
+
+        background-color: rgb(39, 174, 39);
+    }
+
+    #record {
+
+        margin-left: 5%;
+        width: 50%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+        border: 3px solid #000;
+
+    }
+
+    .classification {
+
+        width: 25%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hypoglicemia {
+
+        color: grey;
+    }
+
+    #normal {
+
+        color: green;
+    }
+
+    #prediabetes {
+
+        color: orange;
+    }
+
+    #diabetes {
+
+        color: red;
+    }
+
+    .title-classification {
+
+        width: max-content;
+        height: max-content;
+        font-size: 1.2vw;
+    }
+
+    footer {
+
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+    }
+
+    footer > h2 {
+
+        height: max-content;
+        width: max-content;
+        font-size: 1.5vw;
+    }
+
+    footer > p {
+
+        height: max-content;
+        width: max-content;
+        font-size: 1.1vw;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 1000px) {
+
+    *{
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-family: system-ui;
+    }
+
+    body {
+
+        width: 100%;
+        min-height: 100vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(35, 206, 35);
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    h1 {
+
+        width: max-content;
+        height: max-content;
+        font-size: 5vw;
+    }
+
+    main {
+
+        margin-top: 10vh;
+        width: 100%;
+        min-height: 60vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #user {
+
+        height: 36vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title-cad {
+
+        width: max-content;
+        height: max-content;
+        font-size: 4vw;
+        margin-left: 3%;
+    }
+
+    #line-user {
+
+        margin-top: 2vh;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .atribute {
+
+        margin-top: 2vh;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+
+        width: max-content;
+        height: max-content;
+        margin-left: 3%;
+        font-size: 3vw;
+    }
+
+    input {
+
+        margin-left: 3%;
+        width: 70%;
+        height: 4vh;
+        border: 1px solid #000;
+        font-size: 3vw;
+        padding-left: 2%;
+    }
+
+    button {
+
+        width: 40%;
+        height: 6vh;
+        margin-top: 2vh; 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(35, 206, 35);
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 4vw;
+    }
+
+    button:hover {
+
+        background-color: rgb(39, 174, 39);
+    }
+
+    #record {
+
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .classification {
+
+        width: 25%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hypoglicemia {
+
+        color: grey;
+    }
+
+    #normal {
+
+        color: green;
+    }
+
+    #prediabetes {
+
+        color: orange;
+    }
+
+    #diabetes {
+
+        color: red;
+    }
+
+    .title-classification {
+
+        width: max-content;
+        height: max-content;
+        font-size: 2.5vw;
+    }
+
+    .text-result {
+
+        font-size: 3vw;
+    }
+
+    footer {
+
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+    }
+
+    footer > h2 {
+
+        height: max-content;
+        width: max-content;
+        font-size: 3vw;
+    }
+
+    footer > p {
+
+        height: max-content;
+        width: max-content;
+        font-size: 2.5vw;
+    }
+}
+
+@media screen and (min-width: 200px) and (max-width: 500px) {
+
+    *{
+
+        margin: 0;
+        padding: 0;
+        border: 0;
+        font-size: 100%;
+        font-family: system-ui;
+    }
+
+    body {
+
+        width: 100%;
+        min-height: 100vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    header {
+
+        width: 100%;
+        height: 10vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(35, 206, 35);
+        border-radius: 0px 0px 20px 20px;
+    }
+
+    h1 {
+
+        width: max-content;
+        height: max-content;
+        font-size: 5vw;
+    }
+
+    main {
+
+        margin-top: 10vh;
+        width: 100%;
+        min-height: 60vh;
+        max-height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #user {
+
+        height: 32vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #title-cad {
+
+        width: max-content;
+        height: max-content;
+        font-size: 4vw;
+        margin-left: 3%;
+    }
+
+    #line-user {
+
+        margin-top: 2vh;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .atribute {
+
+        margin-top: 2vh;
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+    }
+
+    label {
+
+        width: max-content;
+        height: max-content;
+        margin-left: 3%;
+        font-size: 3vw;
+    }
+
+    input {
+
+        margin-left: 3%;
+        width: 70%;
+        height: 4vh;
+        border: 1px solid #000;
+        font-size: 3vw;
+        padding-left: 2%;
+    }
+
+    button {
+
+        width: 60%;
+        height: 6vh;
+        margin-top: 2vh; 
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(35, 206, 35);
+        border-radius: 20px;
+        cursor: pointer;
+        font-size: 4vw;
+    }
+
+    button:hover {
+
+        background-color: rgb(39, 174, 39);
+    }
+
+    #record {
+
+        width: 100%;
+        height: max-content;
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .classification {
+
+        width: 25%;
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    #hypoglicemia {
+
+        color: grey;
+    }
+
+    #normal {
+
+        color: green;
+    }
+
+    #prediabetes {
+
+        color: orange;
+    }
+
+    #diabetes {
+
+        color: red;
+    }
+
+    .title-classification {
+
+        width: max-content;
+        height: max-content;
+        font-size: 3vw;
+    }
+
+    footer {
+
+        width: 100%;
+        height: 20vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: grey;
+    }
+
+    footer > h2 {
+
+        height: max-content;
+        width: max-content;
+        font-size: 3.5vw;
+    }
+
+    footer > p {
+
+        height: max-content;
+        width: max-content;
+        font-size: 3vw;
+    } 
+}

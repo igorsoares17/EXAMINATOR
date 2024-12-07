@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+    <link rel="stylesheet" type="text/css" href="STYLE/style.css">
+    <title>Examinator</title>
+
+</head>
+
+<body>
+
+    <header>
+
+        <h1>EXAMINATOR</h1>
+
+    </header>
+
+    <main>
+
+        <form id="user">
+
+            <h2 id="title-cad">CADASTRO DE PACIENTES</h2>
+
+            <div id="line-user">
+
+                <div class="atribute">
+
+                    <label for="input-name">NOME</label>
+                    <input id="input-name" type="text" placeholder="Digite o nome" autocomplete="off">
+
+                </div>
+
+                <div class="atribute">
+
+                    <label for="input-glucose">GLICEMIA</label>
+                    <input id="input-glucose" type="text" placeholder="Digite o número">
+
+                </div>
+
+            </div>
+
+            <button type="submit">Cadastrar</button>
+
+        </form>
+
+        <div id="record">
+
+            <div id="hypoglicemia" class="classification">
+
+                <h2 id="title-hypo" class="title-classification">HIPOGLICEMIA</h2>
+
+            </div>
+
+            <div id="normal" class="classification">
+
+                <h2 id="title-normal" class="title-classification">NORMAL</h2>
+
+            </div>
+
+            <div id="prediabetes" class="classification">
+
+                <h2 id="title-pre" class="title-classification">PRÉ-DIABETE</h2>
+
+            </div>
+
+            <div id="diabetes" class="classification">
+
+                <h2 id="title-diabete" class="title-classification">DIABETE</h2>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <footer>
+
+        <h2>DESENVOLVIDO POR: Igor de Souza Soares</h2>
+        <p>Engenharia de Software - Unicesumar</p>
+        <p>CONTATO: (43)99621-0834</p>
+
+    </footer>
+
+    <script src="CLASSES/Patient.js"></script>
+    <script src="Execution.js"></script>
+    
+</body>
+
+</html>
